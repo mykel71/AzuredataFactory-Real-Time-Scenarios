@@ -1,4 +1,4 @@
-# Azure Data Factory Real-Time-Scenarios
+# Azure Data Factory Real-Time Scenarios
 
 Azure Data Factory, a leading technology in big data engineering
 
