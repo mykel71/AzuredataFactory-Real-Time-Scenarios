@@ -1,0 +1,9 @@
+{
+	"name": "adf-mike",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0b782e44-294f-41cb-bcb3-b9e699782cd2",
+		"tenantId": "565d73bf-656e-4ad6-ac1e-9aac5bce0728"
+	}
+}
