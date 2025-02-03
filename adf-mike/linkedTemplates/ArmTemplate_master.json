@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'linkedserviceDL'"
 		},
+		"linkedServiceHttp_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"linkedserviceDL_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://storagedatafactmike.dfs.core.windows.net/"
@@ -44,6 +48,9 @@
 					},
 					"linkedserviceDL_accountKey": {
 						"value": "[parameters('linkedserviceDL_accountKey')]"
+					},
+					"linkedServiceHttp_properties_typeProperties_url": {
+						"value": "[parameters('linkedServiceHttp_properties_typeProperties_url')]"
 					},
 					"linkedserviceDL_properties_typeProperties_url": {
 						"value": "[parameters('linkedserviceDL_properties_typeProperties_url')]"

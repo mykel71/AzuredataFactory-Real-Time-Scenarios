@@ -8,6 +8,9 @@
 		"linkedserviceDL_accountKey": {
 			"value": ""
 		},
+		"linkedServiceHttp_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
 		"linkedserviceDL_properties_typeProperties_url": {
 			"value": "https://storagedatafactmike.dfs.core.windows.net/"
 		},
