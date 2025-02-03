@@ -1,0 +1,22 @@
+{
+	"name": "gitRaw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedServiceHttp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "mykel71/AzuredataFactory-Real-Time-Scenarios/refs/heads/main/Data/Fact_Sales_2.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
